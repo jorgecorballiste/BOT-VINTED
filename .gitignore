@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+
+# Bot runtime files
+*.db
+bot.log
+bot.log.*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
