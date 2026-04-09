@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Titles containing these words are likely lots/bundles — skip for single-game pricing
 LOT_KEYWORDS: frozenset[str] = frozenset([
-    "lote", "lotes", "pack", "bundle", "coleccion", "coleccion",
+    "lote", "lotes", "pack", "bundle", "coleccion",
     "varios", "lot", "conjunto", "surtido",
 ])
 
@@ -88,8 +88,15 @@ class DealAnalyzer:
                 for k, v in raw.items()
                 if not k.startswith("_")  # skip comment keys
             ]
-            # More keywords = more specific → checked first to avoid short-key shadowing
-            self._index = sorted(entries, key=lambda x: len(x[0]), reverse=True)
+            # Primary sort: more keywords = more specific (checked first).
+            # Tie-break by total keyword character length (longer words = more specific).
+            # This ensures "pokemon espada" (12 chars) beats "pokemon y" (8 chars) so
+            # "Pokemon Espada y Escudo" doesn't false-match the Pokemon Y price entry.
+            self._index = sorted(
+                entries,
+                key=lambda x: (len(x[0]), sum(len(w) for w in x[0])),
+                reverse=True,
+            )
             logger.info("Loaded %d reference prices from %s", len(self._index), path)
         except Exception as exc:
             logger.error("Failed to load prices.json: %s", exc)
