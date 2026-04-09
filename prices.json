@@ -1,54 +1,134 @@
 {
-  "pokemon esmeralda": 80,
-  "pokemon platino": 65,
-  "pokemon alma de plata": 70,
-  "pokemon corazon de oro": 70,
-  "pokemon diamante": 45,
-  "pokemon perla": 45,
-  "pokemon negro": 40,
-  "pokemon blanco": 40,
-  "pokemon x": 30,
-  "pokemon y": 30,
-  "pokemon rojo fuego": 55,
-  "pokemon verde hoja": 60,
-  "pokemon zafiro": 55,
-  "pokemon rubi": 55,
-  "pokemon oro": 35,
-  "pokemon plata": 40,
-  "pokemon cristal": 80,
-  "pokemon rojo": 30,
-  "pokemon azul": 30,
-  "pokemon amarillo": 35,
-  "pokemon negro 2": 55,
-  "pokemon blanco 2": 55,
+  "_comment": "Precios de referencia en EUR para estado 'Muy buen estado'. Claves en minúsculas.",
+
+  "pokemon rojo": 32,
+  "pokemon azul": 32,
+  "pokemon amarillo": 42,
+  "pokemon oro": 40,
+  "pokemon plata": 50,
+  "pokemon cristal": 98,
+
+  "pokemon rubi": 58,
+  "pokemon zafiro": 58,
+  "pokemon esmeralda": 88,
+  "pokemon rojo fuego": 65,
+  "pokemon verde hoja": 70,
+
+  "pokemon diamante": 52,
+  "pokemon perla": 52,
+  "pokemon platino": 70,
+  "pokemon corazon de oro": 80,
+  "pokemon alma de plata": 80,
+  "pokemon heartgold": 80,
+  "pokemon soulsilver": 80,
+
+  "pokemon negro": 45,
+  "pokemon blanco": 45,
+  "pokemon negro 2": 65,
+  "pokemon blanco 2": 65,
+
+  "pokemon x": 28,
+  "pokemon y": 28,
   "pokemon xy": 25,
-  "pokemon omega ruby": 35,
-  "pokemon alpha sapphire": 35,
-  "pokemon oras": 35,
-  "pokemon sun": 25,
-  "pokemon moon": 25,
+  "pokemon omega ruby": 40,
+  "pokemon alpha sapphire": 40,
+  "pokemon omega rubi": 40,
+  "pokemon zafiro alfa": 40,
+
   "pokemon sol": 25,
   "pokemon luna": 25,
-  "pokemon ultra sun": 30,
-  "pokemon ultra moon": 30,
-  "pokemon ultrasol": 30,
-  "pokemon ultraluna": 30,
-  "pokemon sword": 35,
-  "pokemon shield": 35,
+  "pokemon sun": 25,
+  "pokemon moon": 25,
+  "pokemon ultra sol": 32,
+  "pokemon ultra luna": 32,
+  "pokemon ultra sun": 32,
+  "pokemon ultra moon": 32,
+
   "pokemon espada": 35,
   "pokemon escudo": 35,
-  "pokemon scarlet": 40,
-  "pokemon violet": 40,
-  "pokemon escarlata": 40,
-  "pokemon violeta": 40,
-  "pokemon legends arceus": 40,
-  "pokemon leyendas arceus": 40,
-  "pokemon brilliant diamond": 40,
-  "pokemon shining pearl": 40,
-  "pokemon diamante brillante": 40,
-  "pokemon perla reluciente": 40,
-  "pokemon snap": 35,
-  "pokemon ranger": 30,
-  "pokemon mystery dungeon": 30,
-  "pokemon stadium": 30
+  "pokemon sword": 35,
+  "pokemon shield": 35,
+
+  "pokemon diamante brillante": 42,
+  "pokemon perla reluciente": 42,
+  "pokemon brilliant diamond": 42,
+  "pokemon shining pearl": 42,
+
+  "pokemon leyendas arceus": 42,
+  "pokemon legends arceus": 42,
+
+  "pokemon escarlata": 48,
+  "pokemon violeta": 48,
+  "pokemon scarlet": 48,
+  "pokemon violet": 48,
+
+  "pokemon snap": 40,
+  "pokemon new snap": 32,
+
+  "pokemon ranger": 35,
+  "pokemon ranger sombras de almia": 42,
+  "pokemon ranger huellas de luz": 55,
+  "pokemon ranger shadows of almia": 42,
+  "pokemon ranger guardian signs": 55,
+
+  "pokemon mystery dungeon rojo": 58,
+  "pokemon mystery dungeon azul": 52,
+  "pokemon mystery dungeon tiempo": 45,
+  "pokemon mystery dungeon oscuridad": 45,
+  "pokemon mystery dungeon sky": 58,
+  "pokemon mystery dungeon exploradores": 45,
+  "pokemon mystery dungeon red rescue": 58,
+  "pokemon mystery dungeon blue rescue": 52,
+  "pokemon mystery dungeon time": 45,
+  "pokemon mystery dungeon darkness": 45,
+
+  "pokemon super mystery dungeon": 42,
+
+  "pokemon colosseum": 68,
+  "pokemon coloseo": 68,
+  "pokemon xd oscuridad": 90,
+  "pokemon xd gale of darkness": 90,
+
+  "pokemon conquest": 78,
+  "pokemon nobunaga": 78,
+
+  "pokemon stadium": 38,
+  "pokemon stadium 2": 42,
+
+  "pokemon pinball": 48,
+  "pokemon pinball ruby": 52,
+  "pokemon pinball zafiro": 52,
+
+  "pokemon trading card game": 58,
+
+  "pokemon channel": 58,
+
+  "pokemon trozei": 38,
+  "pokemon link": 38,
+
+  "pokemon rumble blast": 32,
+  "pokemon rumble world": 22,
+  "pokemon rumble rush": 20,
+
+  "pokepark": 48,
+  "pokepark 2": 52,
+
+  "pokemon puzzle league": 32,
+  "pokemon puzzle challenge": 48,
+
+  "pokemon battle revolution": 35,
+
+  "pokemon dash": 28,
+
+  "detective pikachu": 30,
+  "detective pikachu returns": 35,
+
+  "pokemon cafe mix": 20,
+  "pokemon cafe remix": 20,
+
+  "pokemon unite": 22,
+
+  "pokemon go plus": 45,
+
+  "pokemon typing adventure": 38
 }
